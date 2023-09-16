@@ -1,9 +1,12 @@
+version: "3"
+# this file uses prebuilt image in dockerhub
+# https://hub.docker.com/repository/docker/canhminhdo/maude-3.2.1/general
 services:
   code:
     image: canhminhdo/maude-3.2.1
     working_dir: /code
     volumes:
       - ./:/code
-    # stdin_open: true
+    stdin_open: true
     tty: true
     mem_limit: 2G
