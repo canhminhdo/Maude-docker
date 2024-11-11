@@ -1,9 +1,9 @@
 version: "3"
 # this file uses prebuilt image in dockerhub
-# https://hub.docker.com/repository/docker/canhminhdo/maude-3.2.1/general
+# https://hub.docker.com/repository/docker/canhminhdo/maude-3.5/
 services:
   code:
-    image: canhminhdo/maude-3.2.1
+    image: canhminhdo/maude-3.5
     working_dir: /code
     volumes:
       - ./:/code
