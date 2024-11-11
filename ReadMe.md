@@ -17,7 +17,7 @@ This repository contains a Docker image for Maude 3.5 and some Maude code exampl
 
 2. Run a Docker container with our pre-built Docker image for Maude 3.5 in interactive mode using the following command:
 
-    `docker compose run --rm code`
+    `docker compose run --rm code` (or executing the shell script `./init.sh`)
 
     Here, we run the service `code` with the argument `--rm` to automatically remove the container after use.
 
